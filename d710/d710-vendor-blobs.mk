@@ -14,22 +14,15 @@
 
 LOCAL_PATH := vendor/samsung/d710
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-    $(LOCAL_PATH)/proprietary/system/lib/libril.so:obj/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/proprietary/system/bin/immvibed:system/bin/immvibed \
     $(LOCAL_PATH)/proprietary/system/bin/macloader:system/bin/macloader \
     $(LOCAL_PATH)/proprietary/system/bin/mfgloader:system/bin/mfgloader \
     $(LOCAL_PATH)/proprietary/system/bin/pppd_runner:system/bin/pppd_runner \
-    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.smdk4210.so:system/lib/hw/sensors.smdk4210.so \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
