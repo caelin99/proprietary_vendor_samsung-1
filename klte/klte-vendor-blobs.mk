@@ -29,6 +29,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	vendor/samsung/klte/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+	vendor/samsung/klte/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
+	vendor/samsung/klte/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
+	vendor/samsung/klte/proprietary/etc/permissions/com.broadcom.nfc.xml:system/etc/permissions/com.broadcom.nfc.xml \
+	vendor/samsung/klte/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 	vendor/samsung/klte/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
 	vendor/samsung/klte/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0213_K_LTE_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0213_K_LTE_ORC.hcd \
 	vendor/samsung/klte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
@@ -38,7 +43,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
 	vendor/samsung/klte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/samsung/klte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
 	vendor/samsung/klte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
 	vendor/samsung/klte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -256,12 +261,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-	vendor/samsung/klte/proprietary/lib/hw/gsm/nfc_nci.msm8974.so:system/lib/hw/gsm/nfc_nci.msm8974.so \
-	vendor/samsung/klte/proprietary/lib/hw/spr/nfc_nci.msm8974.so:system/lib/hw/spr/nfc_nci.msm8974.so \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
+	vendor/samsung/klte/proprietary/lib/hw/nfc_nci.MSM8974.so:system/lib/hw/nfc_nci.MSM8974.so \
 	vendor/samsung/klte/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -302,4 +302,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-	vendor/samsung/klte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+	vendor/samsung/klte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+	vendor/samsung/klte/proprietary/framework/com.broadcom.nfc.jar:system/framework/com.broadcom.nfc.jar \
+	vendor/samsung/klte/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar
