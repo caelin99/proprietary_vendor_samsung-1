@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	vendor/samsung/klte/proprietary/etc/permissions/com.broadcom.nfc.xml:system/etc/permissions/com.broadcom.nfc.xml \
 	vendor/samsung/klte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/samsung/klte/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 	vendor/samsung/klte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
@@ -92,7 +91,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	vendor/samsung/klte/proprietary/framework/com.broadcom.nfc.jar:system/framework/com.broadcom.nfc.jar \
 	vendor/samsung/klte/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_default_video.so:system/lib/C16QL_libchromatix_s5k2p2xx_default_video.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so \
@@ -175,7 +173,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
 	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-	vendor/samsung/klte/proprietary/lib/hw/nfc_nci.MSM8974.so:system/lib/hw/nfc_nci.MSM8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
