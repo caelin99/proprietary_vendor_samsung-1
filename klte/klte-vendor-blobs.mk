@@ -46,8 +46,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/klte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/klte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/klte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/klte/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/klte/proprietary/lib/cdma/libsec-ril.so:system/lib/cdma/libsec-ril.so \
+    vendor/samsung/klte/proprietary/lib/cdma/libril.so:system/lib/cdma/libril.so \
+    vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
+    vendor/samsung/klte/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
     vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/klte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
